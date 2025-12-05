@@ -4,7 +4,11 @@
   "version": "1.0.0",
   "dependencies": {
     "@nativescript/core": "~8.9.1",
-    "nativescript-vue": "3.0.2"
+    "nativescript-vue": "3.0.2",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "axios": "^1.6.2",
+    "@nativescript-community/persistent-storage": "^1.2.0"
   },
   "devDependencies": {
     "@nativescript/preview-cli": "^1.0.14",
