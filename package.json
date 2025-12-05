@@ -1,5 +1,5 @@
 {
-  "name": "@nativescript-vue/stackblitz-template",
+  "name": "nativescript-vue-template",
   "main": "src/app.ts",
   "version": "1.0.0",
   "dependencies": {
@@ -8,17 +8,11 @@
   },
   "devDependencies": {
     "@nativescript/preview-cli": "^1.0.14",
-    "@nativescript/stackblitz": "0.0.8",
     "@nativescript/tailwind": "~4.0.3",
     "@nativescript/types": "~8.9.1",
     "@nativescript/webpack": "~5.0.24",
     "@types/node": "~22.14.0",
     "tailwindcss": "^4.1.3",
     "typescript": "^5.8.3"
-  },
-  "stackblitz": {
-    "installDependencies": true,
-    "compileTrigger": "save",
-    "startCommand": "setup-nativescript-stackblitz && ns preview"
   }
 }
